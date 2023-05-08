@@ -7,11 +7,14 @@ import "../css/styles.scss"
 const RouteSwitch = () => {
   return (
     <BrowserRouter>
-
+<div className="mainContent">
       <Routes>
-        <Route path="/" element={<Home />} exact={true} />
-        <Route path="/projects" element={<Projects/>} />
+        
+            <Route path="/" element={<Home />} exact={true} />
+            <Route path="/projects" element={<Projects/>} />
+        
       </Routes>
+      </div>
     </BrowserRouter>
   );
 };
