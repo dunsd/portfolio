@@ -3,7 +3,7 @@ import Links from "./Links";
 
 const Home = () => {
   return (
-    <div>
+    <div className="homeContent">
       <div className="introCard">
         <h1 className="introHeader">Hello, my name is Daniel.</h1>
         <p className="introPara">
@@ -12,6 +12,7 @@ const Home = () => {
         </p>
         <Links />
       </div>
+      
     </div>
   );
 };
