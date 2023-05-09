@@ -1,7 +1,9 @@
+$secondary-colour: #FBFA20;
 
 .introCard {
     display: flex;
     flex-direction: column;
+    gap: 3em;
 }
 
 .mainContent {
@@ -10,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1 1 80%;
   
 }
 
@@ -17,6 +20,10 @@
     display: flex;
     align-items: center;
     flex: 1 1 40%;
+    .linkContainer {
+        display: flex;
+        justify-content: center;
+    }
 }
 .spacer {
     display: flex;
@@ -30,11 +37,34 @@ body {
 .links {
     display: flex;
     justify-content: space-around;
-    box-shadow: 7px 10px 4px -4px rgba(0,0,0,1);
+    box-shadow: 6px 6px 6px 6px rgba(0,0,0,1);
     max-width: 300px;
+    padding-top: 1em;
+    min-width: 5em;
+    flex-grow: 1;
     img {
         max-width: 64px;
         height: auto;
+        transition: transform 0.5s;
     }
-    
+    img:hover {
+        transform: rotate(180deg);
+    }
+}
+
+.overallContent {
+    display: flex;
+    height: 100vh;
+}
+
+.prjDrop {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 20%;
+
+    .prjContent {
+        display: flex;
+        flex: 1 1 40%;
+        align-items: center;
+    }
 }

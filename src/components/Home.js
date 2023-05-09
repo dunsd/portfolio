@@ -5,12 +5,16 @@ const Home = () => {
   return (
     <div className="homeContent">
       <div className="introCard">
-        <h1 className="introHeader">Hello, my name is Daniel.</h1>
-        <p className="introPara">
-          I am an aspiring Software Engineer currently working as an Electrical
-          Design Engineer.
-        </p>
-        <Links />
+        <div className="introText">
+          <h1 className="introHeader">Hello, my name is Daniel.</h1>
+          <p className="introPara">
+            I am an aspiring Software Engineer currently working as an Electrical
+            Design Engineer.
+          </p>
+        </div>
+        <div className="linkContainer">
+          <Links />
+        </div>
       </div>
       
     </div>
