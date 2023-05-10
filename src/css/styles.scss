@@ -3,7 +3,12 @@ $secondary-colour: #FBFA20;
 .introCard {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 6em;
+
+    .introText {
+        border: solid #8F8E85;
+        border-radius: 3%;
+    }
 }
 
 .mainContent {
@@ -18,8 +23,8 @@ $secondary-colour: #FBFA20;
 
 .homeContent {
     display: flex;
-    align-items: center;
-    flex: 1 1 40%;
+    align-items: flex-start;
+    flex: 1 1 80%;
     .linkContainer {
         display: flex;
         justify-content: center;
@@ -27,7 +32,8 @@ $secondary-colour: #FBFA20;
 }
 .spacer {
     display: flex;
-    flex: 1 1 60%;
+    flex: 1 1 20%;
+
 }
 
 body {
@@ -61,10 +67,62 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 1 20%;
+    text-align: end;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            padding: 0;
+            margin-bottom: 10px;
+            
+        }
+    }
+    .dropdown {
+        font-size: large;
+        &:hover, &:focus-within {
+            .dropItems {
+                transform: rotateY(0);
+                visibility: visible;
+            }
+        }
+    }
+    
 
     .prjContent {
         display: flex;
-        flex: 1 1 40%;
+        flex-direction: column;
+        flex: 1 1 80%;
         align-items: center;
+        padding: 0;
     }
+
+    .dropItems {
+        display: flex;
+        flex-direction: column;
+        transform: rotateY(-90deg);
+        transform-origin: bottom right;
+        transition: 300ms all ease-out;
+
+        a {
+            text-decoration: none;
+            color: black;
+            transition: 300ms;
+            padding: 10px;
+            padding-right: 0;
+            margin: 10px;
+            margin-right: 0;
+            &:hover {
+                color: #8F8E85
+            }
+        }
+    }
+}
+
+
+.skills {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
 }

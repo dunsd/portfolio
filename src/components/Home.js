@@ -1,5 +1,6 @@
 import React from "react";
 import Links from "./Links";
+import Skills from "./Skills";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
             I am an aspiring Software Engineer currently working as an Electrical
             Design Engineer.
           </p>
+          <Skills />
         </div>
         <div className="linkContainer">
           <Links />
