@@ -16,6 +16,8 @@ const Skills = () => {
                 <li>C++</li>
                 <li>C</li>
                 <li>Embedded C</li>
+                <li>Verilog</li>
+                <li>Matlab</li>
             </ul>
             
         </ul>
