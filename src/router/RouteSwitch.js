@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "../components/Home";
 import Projects from "../components/Projects";
 import ProjectsDropDown from "../components/ProjectsDropDown";
+import RealmReviews from "../components/RealmReviews";
 import "../css/styles.scss";
 
 const RouteSwitch = () => {
@@ -18,6 +19,7 @@ const RouteSwitch = () => {
           <Routes>
             <Route path="/" element={<Home />} exact={true} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/realm-reviews" element={<RealmReviews />} />
           </Routes>
           
           
