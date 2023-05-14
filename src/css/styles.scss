@@ -1,5 +1,10 @@
-$secondary-colour: #FBFA20;
+$primary-colour: #9A8F97;
+$secondary-colour: #DAF5FF;
+ 
+
 $background-colour: #C1C0B8;
+
+
 
 .introCard {
     display: flex;
@@ -42,6 +47,7 @@ $background-colour: #C1C0B8;
     justify-content: center;
     align-items: center;
     flex: 1 1 80%;
+    background-color: $secondary-colour;
 }
 
 ::-webkit-scrollbar {
@@ -53,6 +59,7 @@ $background-colour: #C1C0B8;
     align-items: flex-start;
     flex: 1 1 80%;
     overflow-y: auto;
+    
     
 
     .linkContainer {
@@ -130,6 +137,7 @@ body {
         flex: 1 1 80%;
         align-items: center;
         padding: 0;
+        background-color: $secondary-colour;
       
         h3 {
             border-bottom: double #8F8E85;
@@ -196,7 +204,12 @@ body {
 }
 
 .spacer {
+    background-color: $primary-colour;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     a {
+        
         text-decoration: none;
         color: black;
         transition: 300ms;
@@ -204,6 +217,7 @@ body {
         padding-right: 0;
         margin: 10px;
         margin-right: 0;
+        
     }
 }
 .home {
