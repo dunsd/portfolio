@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import Projects from "../components/Projects";
 import ProjectsDropDown from "../components/ProjectsDropDown";
 import RealmReviews from "../components/RealmReviews";
+import Runeterra from "../components/Runeterra";
 import "../css/styles.scss";
 
 const RouteSwitch = () => {
@@ -20,6 +21,7 @@ const RouteSwitch = () => {
             <Route path="/" element={<Home />} exact={true} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/realm-reviews" element={<RealmReviews />} />
+            <Route path="/runeterra" element={<Runeterra />} />
           </Routes>
           
           

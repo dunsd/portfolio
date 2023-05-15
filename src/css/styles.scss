@@ -54,10 +54,10 @@ $background-colour: #C1C0B8;
     display: none;
   }
 
-.homeContent, .prjContent, .realmReviews {
+.homeContent, .prjContent, .realmReviews, .runeterraHub {
     display: flex;
     align-items: flex-start;
-    flex: 1 1 80%;
+    flex: 1 1 90%;
     overflow-y: auto;
     
     
@@ -69,7 +69,7 @@ $background-colour: #C1C0B8;
 }
 .spacer {
     display: flex;
-    flex: 1 1 20%;
+    flex: 1 1 10%;
 
 }
 
@@ -134,7 +134,7 @@ body {
     .prjContent {
         display: flex;
         flex-direction: column;
-        flex: 1 1 80%;
+        flex: 1 1 90%;
         align-items: center;
         padding: 0;
         background-color: $secondary-colour;
@@ -234,11 +234,23 @@ body {
 
 }
 
-.realmReviews {
+.realmReviews, .runeterraHub {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-width: 70%;
+    h1 {
+        border-bottom: double #8F8E85;
+    }
+    .prjDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        margin: 1em;
+        box-shadow: 6px 6px 6px 6px rgba(0,0,0,1);
+    }
+    
 }
 
 .slideHolder {
@@ -246,7 +258,7 @@ body {
     align-items: center;
     justify-content: center;
     min-width: 60%;
-    max-width: 90%;
+    max-width: 80%;
     position: relative;
 
     .prevImg, .nextImg {
@@ -280,4 +292,9 @@ body {
     img {
         max-width: 100%;
     }
+}
+
+.prjText {
+    display: flex;
+    flex-direction: column;
 }

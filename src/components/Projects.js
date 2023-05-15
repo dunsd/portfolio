@@ -1,5 +1,4 @@
 import React from "react";
-// import realmLibrary from "../images/realm-reviews-library.png";
 import gitLogo from "../images/github-mark.svg"
 
 const Projects = () => {
