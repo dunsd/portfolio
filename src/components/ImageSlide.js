@@ -16,8 +16,7 @@ const ImageSlide = ({ imageArr }) => {
 
     return (
         <div className="slideHolder">
-            <button className="prevImg" onClick={prevImg}>Prev</button>
-            <button className="nextImg" onClick={nextImg}>Next</button>
+            
             {imageArr.map((image, index) => {
                 return (
                     <div className="slideImg" key={index}>
@@ -25,8 +24,11 @@ const ImageSlide = ({ imageArr }) => {
                         </div>
                 )
             })}
+            <button className="prevImg" onClick={prevImg}>Prev</button>
+            <button className="nextImg" onClick={nextImg}>Next</button>
         </div>
     );
 };
 
 export default ImageSlide;
+

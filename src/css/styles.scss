@@ -249,10 +249,28 @@ body {
     max-width: 90%;
     position: relative;
 
+    .prevImg, .nextImg {
+        background-color: $secondary-colour;
+        border: 0 solid;
+        border-radius: 2em;
+        cursor: pointer;
+        font-size: 1.3em;
+        text-align: center;
+        transition: all 150ms;
+        padding: 0.5em;
+        font-weight: 600;
+        
+        &:hover{
+            background-color: $primary-colour;
+        }
+   
+    }
+
     .prevImg {
         position: absolute;
         top: 50%;
         right: 90%;
+       
     } 
     .nextImg {
         position: absolute;
