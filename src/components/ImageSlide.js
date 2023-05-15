@@ -15,12 +15,12 @@ const ImageSlide = ({ imageArr }) => {
     }
 
     return (
-        <div>
-            <button onClick={prevImg}>Prev</button>
-            <button onClick={nextImg}>Next</button>
+        <div className="slideHolder">
+            <button className="prevImg" onClick={prevImg}>Prev</button>
+            <button className="nextImg" onClick={nextImg}>Next</button>
             {imageArr.map((image, index) => {
                 return (
-                    <div>
+                    <div className="slideImg" key={index}>
                         {index === currentImg && (<img src={image.image} alt={image.alt}></img>)}
                         </div>
                 )
