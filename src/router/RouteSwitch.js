@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import CVProject from "../components/CVProject";
 import Home from "../components/Home";
 import Projects from "../components/Projects";
 import ProjectsDropDown from "../components/ProjectsDropDown";
@@ -22,6 +23,7 @@ const RouteSwitch = () => {
             <Route path="/projects" element={<Projects />} />
             <Route path="/realm-reviews" element={<RealmReviews />} />
             <Route path="/runeterra" element={<Runeterra />} />
+            <Route path="/cv-project" element={<CVProject />} />
           </Routes>
           
           
