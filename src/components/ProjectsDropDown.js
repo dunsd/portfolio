@@ -12,16 +12,16 @@ const ProjectsDropDown = () => {
 
           <ul className="dropItems">
             <li>
-              <Link to="/projects">Overview</Link>
+              <Link to="/portfolio/projects">Overview</Link>
             </li>
             <li>
-              <Link to="/realm-reviews">Realm Reviews</Link>
+              <Link to="/portfolio/realm-reviews">Realm Reviews</Link>
             </li>
             <li>
-              <Link to="/runeterra">Runeterra Hub</Link>
+              <Link to="/portfolio/runeterra">Runeterra Hub</Link>
             </li>
             <li>
-              <Link to="/cv-project">CV Project</Link>
+              <Link to="/portfolio/cv-project">CV Project</Link>
             </li>
           </ul>
         </li>
