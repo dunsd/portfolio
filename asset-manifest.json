@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c14c5f1c.css",
+    "main.js": "/portfolio/static/js/main.9774ff6c.js",
+    "static/media/runeterra-bravery.png": "/portfolio/static/media/runeterra-bravery.3181c4197db6af3560c6.png",
+    "static/media/runeterra-match-details.png": "/portfolio/static/media/runeterra-match-details.0a3704112805b8be83e6.png",
+    "static/media/cv-1.png": "/portfolio/static/media/cv-1.58c0127a6a5c9e590399.png",
+    "static/media/runeterra-home.png": "/portfolio/static/media/runeterra-home.993b71576d78ebde079a.png",
+    "static/media/runeterra-profile.png": "/portfolio/static/media/runeterra-profile.e39acd587ec100dd7692.png",
+    "static/media/cv-2.png": "/portfolio/static/media/cv-2.83d1067398018bd04ece.png",
+    "static/media/realm-reviews-edit.png": "/portfolio/static/media/realm-reviews-edit.d0acaff46e9b6e0c1788.png",
+    "static/media/realm-reviews-library.png": "/portfolio/static/media/realm-reviews-library.33a3f322b2321b1d00bc.png",
+    "static/media/realm-reviews-add.png": "/portfolio/static/media/realm-reviews-add.ee54aca3a364580f1cff.png",
+    "static/media/github-mark.svg": "/portfolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/portfolio/index.html",
+    "main.c14c5f1c.css.map": "/portfolio/static/css/main.c14c5f1c.css.map",
+    "main.9774ff6c.js.map": "/portfolio/static/js/main.9774ff6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c14c5f1c.css",
+    "static/js/main.9774ff6c.js"
+  ]
+}
