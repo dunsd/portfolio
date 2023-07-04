@@ -172,6 +172,9 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: auto;
+    .prjInner {
+        width: 100%;
+    }
     .introPrjCard {
         display: flex;
         flex-wrap: wrap;

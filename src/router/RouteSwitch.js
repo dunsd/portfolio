@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route, Link, HashRouter } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import CVProject from "../components/CVProject";
 import Home from "../components/Home";
 import Projects from "../components/Projects";
@@ -7,11 +7,19 @@ import ProjectsDropDown from "../components/ProjectsDropDown";
 import RealmReviews from "../components/RealmReviews";
 import Runeterra from "../components/Runeterra";
 import "../css/styles.scss";
+import "./RouteSwitch.scss";
 
 const RouteSwitch = () => {
+
+  const [overallClass, setOverallClass] = useState("hidden");
+  useEffect(() => {
+    setOverallClass("visible");
+  },[]);
+
+  
   return (
     <BrowserRouter>
-      <div className="overallContent">
+      <div className={`overallContent ${overallClass}`}>
         <div className="mainContent">
         <span className="spacer">
         <Link to="/portfolio/">

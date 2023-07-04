@@ -7,8 +7,7 @@ const Projects = () => {
         <div className="prjContent">
             <h1>Projects Overview</h1>
             <div className="introPrjCard">
-                
-                <div>
+                <div className="prjInner">
                     <h2>Realm Reviews</h2>
                     <p>A CRUD website based on books.</p>
                     <p>Technologies: React, Node, Express, MongoDB, React-Bootstrap, Javascript</p>
@@ -16,7 +15,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="introPrjCard">
-                <div>
+                <div className="prjInner">
                     <h2>Runeterra Hub</h2>
                     <p>A passion project to interface with the game Legends
                         of Runeterra. 
@@ -26,7 +25,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="introPrjCard">
-                <div>
+                <div className="prjInner">
                     <h2>CV Project</h2>
                     <p>An introductory React project using functional components and hooks.
                     </p>
